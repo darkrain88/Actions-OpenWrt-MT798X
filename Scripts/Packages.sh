@@ -48,7 +48,8 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支，留空为默认分支" "pkg，可选，从大杂烩中单独提取包名插件" "需要一并从 feeds 删除的同类包名"
 
 #主题
-UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12"
+# UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12"
+UPDATE_PACKAGE "vantage" "anothaDev/luci-theme-vantage" "main"
 
 #科学插件
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "" "pkg"
