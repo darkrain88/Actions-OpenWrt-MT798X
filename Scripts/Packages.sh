@@ -55,7 +55,8 @@ UPDATE_PACKAGE "vantage" "anothaDev/luci-theme-vantage" "main"
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "" "pkg"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
-UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" ""
+# UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" ""
+UPDATE_PACKAGE "nikki-rs" "CHKayanami/OpenWrt-nikki-rs" ""
 #HomeProxy 及配套 sing-box
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "" "" "axonhub gecoosac sing-box luci-app-homeproxy luci-app-timewol luci-app-wolplus luci-app-wolultra"
 #Daed 及 vmlinux-btf
