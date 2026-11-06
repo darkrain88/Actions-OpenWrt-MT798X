@@ -3,7 +3,8 @@
 # Applications
 # CONFIG_PACKAGE_luci-app-daede=y
 # CONFIG_PACKAGE_daed=y
-CONFIG_PACKAGE_luci-app-nikki=y
+# CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_luci-app-nikki-rs=y
 CONFIG_PACKAGE_luci-app-ssr-plus=n
 CONFIG_PACKAGE_luci-app-openclash=n
 CONFIG_PACKAGE_luci-app-homeproxy=y
