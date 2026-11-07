@@ -55,12 +55,7 @@ UPDATE_PACKAGE "vantage" "anothaDev/luci-theme-vantage" "main"
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "" "pkg"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
-# UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" ""
-UPDATE_PACKAGE "nikki-rs" "CHKayanami/OpenWrt-nikki-rs" ""
-# 固定 Nikki RS 的预编译核心版本，并同步更新各架构的 SHA256
-git -C ./package/OpenWrt-nikki-rs apply \
-	"$GITHUB_WORKSPACE/.github/patches/nikki-rs-clash-rs-0.20.24-alpha.patch" || exit 1
-echo "clash-rs core pinned to v0.20.24-alpha"
+UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" ""
 #HomeProxy 及配套 sing-box
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "" "" "axonhub gecoosac sing-box luci-app-homeproxy luci-app-timewol luci-app-wolplus luci-app-wolultra"
 #Daed 及 vmlinux-btf
